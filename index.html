@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Grid</title>
+
+    <style>
+        body{
+            display: flex;
+            /*flex-direction: row;
+            align-items: column;*/
+            justify-content: center;
+            width:100%;
+            padding: 20px;
+
+        }
+        .card-grid{
+            display: flex;
+            flex-direction: wrap;
+            justify-content: center;
+            gap:20px;
+            width: 100%;
+
+            font-family: sans-serif;
+        }
+
+        .card{
+            width: 90%;
+            max-width:300px;
+            border:1px solid wheat;
+            border-radius: 16px;
+            display: inline-block;
+    
+            padding: 10px;
+
+            
+        }
+        .card img{
+            width:300px;
+            
+        }
+        .card .price{
+            text-align: center;
+            font-weight: bold;
+        
+        }
+        .card h2{
+            display: block;
+            margin:auto;
+            padding: 12px; 
+            text-align: center;
+        }
+        .card span{
+            text-align:justify;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="card-grid">
+
+        <div class="card">
+            <img src="hiker.jpg">
+            <h2>Victorinox Hiker 1.4613</h2>
+            <span>13 fonksiyonlu İsviçre üretimi çakı. İçerisinde anahtarlık halkası,büyük bıçak,cımbız,delik açıcı ,kablo sıyırıcı ,konserve açacağı ile küçük bıçak,kürdan,küçük tornavida, testere,tornavida, şişe açacağı, ve yıldız tornavida bulunmaktadır.</span>
+            <p class="price">1.539 TL</p>
+        </div>
+
+        <div class="card">
+            <img src="climber.jpg">
+            <h2>Victorinox Climber Çakı</h2>
+            <span>14 fonksiyonlu İsviçre üretimi çakı. İçerisinde büyük bıçak, küçük bıçak, tirbüşon, konserve açacağı ile küçük tornavida, kapak açacağı, tornavida, kablo sıyıracağı, delme bıçağı, halka, cımbız, kürdan, makas ve çok maksatlı askı bulunmaktadır.</span>
+            <p class="price">1.580,15 TL</p>
+        </div>
+
+        <div class="card">
+            <img src="aluminyum.jpg">
+            <h2>Victorinox Çakı Alüminyum Yüzeyli</h2>
+            <span>Tek fonskiyonlu İsviçre üretimi çakı. Ağırlığı 44 gr, uzunluğu 93 mm,  genişliği 23 mm ve yüksekliği de 9 mm dir.</span>
+            <p class="price">1.219,00 TL</p>
+        </div>
+
+        <div class="card">
+            <img src="silver.jpg">
+            <h2>Victorinox Silvertech Şeffaf Blisterli Çakı</h2>
+            <span>14 fonksiyonlu İsviçre üretimi çakı. İçerisinde anahtarlık, büyük bıçak, cımbız, çok amaçlı kanca, delik açıcı, kablo sıyırıcı, konseve açacağı, küçük bıçak, tornavida 3mm, tornavida 6mm, kürdan, makas, şişe açacağı ve tirbüşon bulunmaktadır..</span>
+            <p class="price">2.700,00 TL</p>
+        </div>
+      
+    </div>
+    
+</body>
+</html>
